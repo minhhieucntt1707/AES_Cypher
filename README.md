@@ -38,8 +38,7 @@
 - pip
 
 Install dependencies:
-```bash
-pip install flask pycryptodome
+  pip install flask pycryptodome
 
 **cách chạy**
 viết python app.py vào terminal
