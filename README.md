@@ -40,10 +40,10 @@
 Install dependencies:
   pip install flask pycryptodome
 
-**cách chạy**
+## cách chạy
 viết python app.py vào terminal
 
-**Interface Overview**
+## interface overview
 Enter Key: Enter a 16-character key. If shorter, it will be padded with \0.
 
 Upload File: Choose a file to encrypt or decrypt.
@@ -52,14 +52,14 @@ Encrypt / Decrypt: Choose the operation to perform.
 
 Download Result: Encrypted file (*.aes) or decrypted file is returned automatically.
 
- **AES Encryption Mode**
+## AES encryption mode
 Mode: CBC (Cipher Block Chaining)
 
 Block size: 16 bytes (128 bits)
 
 IV (Initialization Vector): Randomly generated for each encryption, stored at the start of the encrypted file.
 
-**Project Structure**
+## cấu trúc project
 csharp
 Copy
 Edit
@@ -68,7 +68,7 @@ Edit
 │   └── index.html      # Web interface template
 └── static/             # (Optional) For styling or scripts
 
-**Security Notes**
+## security notes
 This implementation is for educational purposes.
 Do not use in production without improving:
 Key management
